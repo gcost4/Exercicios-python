@@ -14,6 +14,6 @@ if tipo_assinatura in porcentagens:
     
     porcentagem = porcentagens[tipo_assinatura]
     bonus = faturamento_anual * porcentagem
-    print(f"O valor do bônus a ser pago é: R${bonus:.2f}")
+    print(f"Valor do bônus a ser pago é: R${bonus:.2f}")
 else:
     print("Tipo de assinatura inválido.")
